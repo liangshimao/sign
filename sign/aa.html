@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/encode.js" charset="utf-8"></script>
+</head>
+<body>
+
+</body>
+<script>
+    $(function () {
+        var str = "exnein4";
+        var str1 = base64encode(utf16to8(str));
+        alert(str1);
+    });
+</script>
+</html>
